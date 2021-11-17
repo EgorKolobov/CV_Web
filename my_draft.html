@@ -1,132 +1,138 @@
 <!DOCTYPE HTML>
 <html lang="ru">
-    <head>
-        <title>Колобов Егор М33021</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Резюме разработчика</h1>
-        </header>
-        <main>
-            <section>
-                <h2>Оглавление</h2>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#education">
-                                Образование
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#add_education">
-                                Дополнительное образование
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#skills">
-                                Навыки
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#hobby">
-                                О себе
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#personal">
-                                Личные качества
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contacts">
-                                Контакты
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section id="education">
+<head>
+    <title>Колобов Егор М33021</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 class="h1_cv">Резюме</h1>
+    <section class="menu">
+        <h2 style="text-align: center">Оглавление</h2>
+        <nav>
+            <a href="#education_id" class="menu__navigation navigation">
+                Образование
+            </a>
+
+            <a href="#additional_education_id" class="menu__navigation navigation">
+                Дополнительное образование
+            </a>
+
+            <a href="#skills_id" class="menu__navigation navigation">
+                Навыки
+            </a>
+
+            <a href="#personal_id" class="menu__navigation navigation">
+                Личные качества
+            </a>
+
+            <a href="#hobby_id" class="menu__navigation navigation">
+                О себе
+            </a>
+
+            <a href="#contacts_id" class="menu__navigation navigation">
+                Контакты
+            </a>
+        </nav>
+    </section> <!-- menu -->
+</header>
+<main style="margin-top: 209px">
+    <div class="all_content">
+        <div class="all_content__useful useful">
+            <section id="education_id" class="all_content__education education">
                 <h2>Образование</h2>
                 <ul>
                     <li>Среднее образование: Президентский ФМЛ №239</li>
-                    <li>Высшее образование:  Университет ИТМО</li>
+                    <li>Высшее образование: Университет ИТМО</li>
                 </ul>
             </section>
-            <section id="add_education">
+            <section id="additional_education_id" class="all_content__additional_education additional_education">
                 <h2>Дополнительное образование</h2>
                 <h3>Онлайн курсы</h3>
-            </section>
-            <section id="skills">
-                <h2>Навыки</h2>
-                <div>
-                    <h3>Языки программирования</h3>
-                    <ol type="1">
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>C#</li>
-                    </ol>
-                    <h4>Пример кода на Python</h4>
-                    <pre><code>
-                        if __name__ == '__main__':
-                            name = input("What is your name?")
-                            print("Hello, {}!".format(name))
-                    </code></pre>
-                </div>
-                <div>
-                    <h3>Иностранные языки</h3>
-                    <ul>
-                        <li>Английский - C2</li>
-                    </ul>
-                </div>
-                <section id="personal">
-                    <h2>Личные качества</h2>
-                    <ul>
-                        <li>Трудолибивость</li>
-                        <li>Пунктуальность</li>
-                        <li>Дружелюбность</li>
-                    </ul>
-                </section>
-            </section>
-            <section id="hobby">
-                <h2>Хобби/О себе</h2>
-                <p>20 лет. Студент 3-го Курса ФИТиП. Катаюсь на сноуборде и хожу в спортзал.</p>
-            </section>
-            <aside>
-                <h2>Моё тотемное животное</h2>
-                <pre>
-                    ─────────▄──────────────▄
-                    ────────▌▒█───────────▄▀▒▌
-                    ────────▌▒▒▀▄───────▄▀▒▒▒▐
-                    ───────▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
-                    ─────▄▄▀▒▒▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
-                    ───▄▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀██▀▒▌
-                    ──▐▒▒▒▄▄▄▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄▒▒▌
-                    ──▌▒▒▐▄█▀▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
-                    ─▐▒▒▒▒▒▒▒▒▒▒▒▌██▀▒▒▒▒▒▒▒▒▀▄▌
-                    ─▌▒▀▄██▄▒▒▒▒▒▒▒▒▒▒▒░░░░▒▒▒▒▌
-                    ─▌▀▐▄█▄█▌▄▒▀▒▒▒▒▒▒░░░░░░▒▒▒▐
-                    ▐▒▀▐▀▐▀▒▒▄▄▒▄▒▒▒▒▒░░░░░░▒▒▒▒▌
-                    ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒░░░░░░▒▒▒▐
-                    ─▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒▒▒░░░░▒▒▒▒▌
-                    ─▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐
-                    ──▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▒▒▒▒▌
-                    ────▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀
-                    ───▐▀▒▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀
-                    ──▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀
-
-                </pre>
-            </aside>
-        </main>
-        <footer>
-            <section id="contacts">
-                <h2>Контактная информация</h2>
                 <ul>
-                    <li>Телефон: 555-1337</li>
-                    <li>Почта:ekolobov@gmail.com</li>
+                    <li>Stepik: Прграммирование на Python</li>
+                    <li>Stepik: Прграммирование на С++</li>
                 </ul>
             </section>
-        </footer>
-    </body>
+            <section id="skills_id" class="all_content__skills skills">
+                <h2>Навыки</h2>
+                <h3>Языки программирования</h3>
+                <ol type="1">
+                    <li>Python</li>
+                    <li>C/C++</li>
+                    <li>C#</li>
+                </ol>
+                <h4>Пример кода на Python</h4>
+                <pre style="margin-top: 0px"><code>
+if __name__ == '__main__':
+    name = input("What is your name?")
+    print("Hello, {}!".format(name))
+                        </code></pre>
+                <h3>Иностранные языки</h3>
+                <ul>
+                    <li>Английский - C2</li>
+                </ul>
+            </section>
+            <section id="personal_id" class="all_content__personal personal">
+                <h2>Личные качества</h2>
+                <ul>
+                    <li>Трудолибивость</li>
+                    <li>Пунктуальность</li>
+                    <li><s>Дружелюбность</s></li>
+                    <li><i>Красивый</i></li>
+                </ul>
+            </section>
+            <section id="hobby_id" class="all_content__hobby hobby">
+                <h2>Хобби/О себе</h2>
+                <p style="text-transform: uppercase">20 лет. Студент 3-го Курса ФИТиП. хожу в gym.</p>
+            </section>
+            <section class="all_content__my_table my_table">
+                <div class="table">
+                    <div>№</div>
+                    <div>Описание столбца 1</div>
+                    <div>Описание столбца 2</div>
+
+                    <div>№1</div>
+                    <div>1.00</div>
+                    <div>число 1</div>
+
+                    <div>№2</div>
+                    <div>2.00</div>
+                    <div>число 2</div>
+
+                    <div>№3</div>
+                    <div>3.00</div>
+                    <div>число 3</div>
+
+                    <div>№4</div>
+                    <div>4.00</div>
+                    <div>число 4</div>
+                </div>
+            </section>
+        </div> <!-- конец useful -->
+        <div class="all_content__pictures pictures">
+            <aside>
+                <h2 style="text-align: center;">Моё тотемное животное</h2>
+
+                <img src="img/cool_doge.jpg">
+                <img src="img/nose.jpeg">
+                <img src="img/tired.jpg">
+
+            </aside>
+        </div> <!-- конец pictures -->
+    </div> <!-- конец all_content -->
+</main>
+<footer>
+    <div class="footer_info">
+        <section id="contacts_id" class="footer_info__contacts contacts">
+            <h2>Контактная информация</h2>
+            <ul>
+                <li>Телефон: 555-1337</li>
+                <li>Почта:ekolobov@gmail.com</li>
+            </ul>
+        </section>
+    </div>
+</footer>
+</body>
 </html>
