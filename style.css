@@ -3,7 +3,6 @@ html{
     background-color: #E7E9DE;
     font-family: "Helvetica Neue";
     line-height: normal;
-    font-
 }
 
 header{
@@ -65,8 +64,24 @@ section{
 
 nav{
     display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+}
+
+.menu__div_nav1{
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+}
+
+.menu__div_nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 footer{
@@ -168,6 +183,16 @@ footer{
     .navigation{
         font-size: 12px;
     }
+    nav{
+        flex-direction: column;
+        /*flex-direction: row;*/
+    }
+    .menu__div_nav1{
+        width: 100%;
+    }
+    .menu__div_nav2{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -190,6 +215,16 @@ footer{
     .navigation{
         font-size: 14px;
     }
+    nav{
+        /*flex-direction: column;*/
+        flex-direction: row;
+    }
+    .menu__div_nav1{
+        width: 50%;
+    }
+    .menu__div_nav2{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -211,6 +246,16 @@ footer{
     }
     .navigation{
         font-size: 16px;
+    }
+    nav{
+        /*flex-direction: column;*/
+        flex-direction: row;
+    }
+    .menu__div_nav1{
+        width: 50%;
+    }
+    .menu__div_nav2{
+        width: 50%;
     }
 }
 
