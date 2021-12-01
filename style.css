@@ -66,8 +66,8 @@ section{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    /* justify-content: space-around; */
+    /* width: 100%; */
     /*flex-wrap: wrap;*/
     /*flex-direction: column;*/
 }
@@ -116,10 +116,11 @@ footer{
     text-align: center;
     margin: 5px 5px 5px 5px;
     box-shadow: 0 0 5px;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     text-align: center;
     font-size: 12px;
     padding: 5px 5px 5px 5px;
+    flex: 1 1 25%
 }
 
 .navigation{
@@ -143,8 +144,9 @@ footer{
 }
 
 .menu__nav{
-    /*direction: flex;*/
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .all_content__useful{
@@ -196,7 +198,18 @@ footer{
     padding-top: 10px;
 }
 
+.menu__nav{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+}
+
 @media screen and (min-width: 640px){
+    /*.menu__nav{*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    flex-direction: row;*/
+    /*}*/
     .all_content__pictures{
         max-width: 300px;
         /*background-color: darkblue;*/
@@ -219,6 +232,9 @@ footer{
     nav{
         /*flex-direction: column;*/
         flex-direction: row;
+    }
+    .menu__navigation{
+        flex: 1 1 20%
     }
     /*.menu__div_nav1{*/
     /*    width: 100%;*/
@@ -250,8 +266,16 @@ footer{
     }
     nav{
         /*flex-direction: column;*/
-        flex-direction: row;
+        /* flex-direction: row; */
     }
+    .menu__navigation{
+        flex: 1 1 10%
+    }
+    /*.menu__nav{*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    flex-direction: row;*/
+    /*}*/
     /*.menu__div_nav1{*/
     /*    width: 50%;*/
     /*}*/
@@ -261,6 +285,9 @@ footer{
 }
 
 @media screen and (min-width: 1200px){
+    .menu__navigation{
+        flex: 1 1 10%
+    }
     .all_content__pictures{
         max-width: 500px;
         /*background-color: yellow;*/
@@ -283,8 +310,13 @@ footer{
     nav{
         /*flex-wrap: wrap;*/
         /*flex-direction: column;*/
-        flex-direction: row;
+        /* flex-direction: row; */
     }
+    /*.menu__nav{*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    flex-direction: row;*/
+    /*}*/
     /*.menu__div_nav1{*/
     /*    width: 50%;*/
     /*}*/
